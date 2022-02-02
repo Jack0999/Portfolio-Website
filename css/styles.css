@@ -23,6 +23,10 @@ html {
     scroll-behavior: smooth;
 }
 
+/* body {
+  background-size: auto;
+} */
+
 body,
 html {
     height: 100%;
@@ -113,7 +117,7 @@ nav ul li {
 
 .hero img {
     height: 25.5rem;
-    width: 25.5rem;
+    width: auto;
     border-radius: 50%;
 }
 
@@ -142,7 +146,13 @@ nav ul li {
 
 .more-about {
     /* background-color: var(--bg-color); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 1rem 6rem;
+    padding: auto;
 }
   
 .more-about h2 {
